@@ -58,6 +58,7 @@
                                 {% endif %}
                             </td>
                             <td><a href="{% url 'remover' id=aluno.pk %}">Apagar</a></td>
+                            <td><a href="{% url 'trancar' id=aluno.pk %}">Trancar</a></td>
                         </tr>
                     {% endfor %}
                 </tbody>

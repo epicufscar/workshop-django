@@ -6,6 +6,7 @@ def home(request):
     alunos = Aluno.objects.all()
     return render(request, 'homt.html',{'alunos':alunos})
 
+
 def adicionar(request):
 
     if request.method == "POST":
@@ -20,7 +21,16 @@ def adicionar(request):
 
     return render(request, 'adicionar.html', {})
 
+
 def remover(request, id):
     aluno = get_object_or_404(Aluno, pk=id)
     aluno.delete()
     return redirect('home')
+
+
+def trancar(request, id):
+    aluno = get_object_or_404(Aluno, pk=id)
+    aluno.trancou = True
+    aluno.save()
+    return redirect('home')
+

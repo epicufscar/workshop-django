@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Aluno
 
 
@@ -19,3 +19,8 @@ def adicionar(request):
         return redirect('home')
 
     return render(request, 'adicionar.html', {})
+
+def remover(request, id):
+    aluno = get_object_or_404(Aluno, pk=id)
+    aluno.delete()
+    return redirect('home')

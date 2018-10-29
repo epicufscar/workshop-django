@@ -57,6 +57,7 @@
                                     Cursando
                                 {% endif %}
                             </td>
+                            <td><a href="{% url 'remover' id=aluno.pk %}">Apagar</a></td>
                         </tr>
                     {% endfor %}
                 </tbody>

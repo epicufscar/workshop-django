@@ -44,7 +44,20 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Aqui serão colocados os alunos-->
+                    {% for aluno in alunos %}
+                        <tr>
+                            <td>{{aluno.pk}}</td>
+                            <td>{{aluno.nome}}</td>
+                            <td>{{aluno.ra}}</td>
+                            <td>
+                                {% if aluno.trancou == True %}
+                                    Trancou
+                                {% else %}
+                                    Cursando
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>

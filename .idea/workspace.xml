@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeefa48a-3282-4bb2-b2c8-899a1e8e11a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/projeto/projeto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/projeto/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto/sistema/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/sistema/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projeto_django.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/projeto/projeto/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -39,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/projeto/sistema/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -51,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/projeto/sistema/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-12">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -86,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/projeto/projeto/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -271,7 +275,7 @@
     <entry file="file://$PROJECT_DIR$/projeto/projeto/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
           </folding>
@@ -295,7 +299,7 @@
     <entry file="file://$PROJECT_DIR$/projeto/sistema/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -315,7 +319,7 @@
     <entry file="file://$PROJECT_DIR$/projeto/sistema/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
@@ -349,7 +353,7 @@
     <entry file="file://$PROJECT_DIR$/projeto/projeto/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>

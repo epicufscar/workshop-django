@@ -34,3 +34,16 @@ def trancar(request, id):
     aluno.save()
     return redirect('home')
 
+
+def editar(request, id):
+    aluno = get_object_or_404(Aluno, pk=id)
+
+    if request.method == "POST":
+        nome = request.POST.get('nome')
+        ra = request.POST.get('ra')
+        aluno.nome = nome
+        aluno.ra = ra
+        aluno.save()
+        return redirect('home')
+
+    return render(request, 'editar.html', {'aluno':aluno})

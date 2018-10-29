@@ -59,6 +59,7 @@
                             </td>
                             <td><a href="{% url 'remover' id=aluno.pk %}">Apagar</a></td>
                             <td><a href="{% url 'trancar' id=aluno.pk %}">Trancar</a></td>
+                            <td><a href="{% url 'editar' id=aluno.pk %}">Editar</a></td>
                         </tr>
                     {% endfor %}
                 </tbody>

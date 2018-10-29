@@ -1,6 +1,8 @@
 from django.shortcuts import render
+from .models import Aluno
 
 
 def home(request):
-    return render(request, 'homt.html',{})
+    alunos = Aluno.objects.all()
+    return render(request, 'homt.html',{'alunos':alunos})
 

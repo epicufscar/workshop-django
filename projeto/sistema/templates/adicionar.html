@@ -1,0 +1,28 @@
+{% extends "home.html" %}
+
+{% block content %}
+    <main role="main" class="container">
+        <div class="pt-5 text-center">
+            <h1 class="mt-5 ">Adicionar um novo aluno</h1>
+            <p>Esta é a página que usaremos para adicionar novos alunos</p>
+
+            <h2 class="mt-5">Preencha o fomrulário</h2>
+            <div class="center_div">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="nome">Nome do aluno</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Ex: Rafael">
+                    </div>
+                    <div class="form-group">
+                        <label for="ra">RA do aluno</label>
+                        <input type="text" class="form-control" id="ra" name="ra" placeholder="Ex: 123456">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Adicionar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+{% endblock%}
